@@ -22,4 +22,13 @@ public class PrintArray {
 		array=array.concat("]");
 		System.out.println("Your Array:"+array);
 	}
+	public void printSimpleStringArray(String [] arr) {
+		String array = "[";
+		for(int i=0;i<arr.length;i++) {
+			array=array.concat(arr[i]+",");
+		}
+		array=array.trim();
+		array=array.concat("]");
+		System.out.println("Your Array:"+array);
+	}
 }
