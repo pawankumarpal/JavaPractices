@@ -101,7 +101,7 @@
   <script nonce="hF4QLQYdQ0HHRZPichF3fw==" src="/static/assets/app.js?v=a5a8a94a0b33db4095e9"></script>
     <script nonce="hF4QLQYdQ0HHRZPichF3fw==" type="text/javascript">
       window.kaggleStackdriverConfig = {
-        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        key: 'AIzaSyA4ehNqUdRbHRskJsCZWVz-qL655Xa5JEMreE',
         projectId: 'kaggle-161607',
         service: 'web-fe',
         version: 'ci',
