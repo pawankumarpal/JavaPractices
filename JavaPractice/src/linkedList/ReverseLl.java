@@ -51,7 +51,7 @@ public class ReverseLl {
 	static class Node{
 		int data;
 		Node next;
-		
+		//yes
 		Node(int x){
 			data =x;
 			next =null;
