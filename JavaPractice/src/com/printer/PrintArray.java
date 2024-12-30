@@ -17,7 +17,7 @@ public class PrintArray {
 	
 	public void printSimpleImtArray(int [] arr) {
 		String array = "[";
-		for(int i:arr) {
+		for(int i=0;i<arr.length;i++) {
 			array=array.concat(arr[i]+",");
 		}
 		array=array.trim();
