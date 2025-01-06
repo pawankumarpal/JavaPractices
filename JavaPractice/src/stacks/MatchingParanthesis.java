@@ -7,7 +7,8 @@ public class MatchingParanthesis {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MatchingParanthesis mp = new MatchingParanthesis();
-		String paranthesis = "[({)]";
+		//String paranthesis = "[({)]";
+		String paranthesis = "()";
 		String opens = "[{(";
 		Stack <Character> s = new Stack<Character>();
 		

@@ -35,6 +35,7 @@ public class UnderstandHashMap {
 //      symbolValue.put(1, "I ");        
         for (Entry<Integer, String> e : symbolValue.entrySet()) {
         	int value = e.getKey();
+        	System.out.println(value);
         }
 	}
 

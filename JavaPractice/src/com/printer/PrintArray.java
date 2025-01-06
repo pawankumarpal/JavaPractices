@@ -55,4 +55,13 @@ public class PrintArray {
 		array=array.concat("]");
 		System.out.println("Your Array:"+array);
 	}
+	public void print2dArray(int[][] nums) {
+		for(int i=0;i<nums.length;i++) {
+			for(int j=0;j<nums[i].length;j++) {
+				System.out.print(nums[i][j]+",");
+			}
+			System.out.println();
+		}
+
+	}
 }
