@@ -48,8 +48,8 @@ public class PrintArray {
 		String array = "[";
 		Node temp = head;
 		while(temp !=null) {
-			array=array.concat(temp.getData()+",");
-			temp = temp.getNext();
+			//array=array.concat(temp.getData()+",");
+			//temp = temp.getNext();
 		}
 		array=array.trim();
 		array=array.concat("]");
