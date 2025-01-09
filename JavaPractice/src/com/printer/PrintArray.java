@@ -47,10 +47,7 @@ public class PrintArray {
 	public void printLinkedList(Node head) {
 		String array = "[";
 		Node temp = head;
-		while(temp !=null) {
-			//array=array.concat(temp.getData()+",");
-			//temp = temp.getNext();
-		}
+
 		array=array.trim();
 		array=array.concat("]");
 		System.out.println("Your Array:"+array);
