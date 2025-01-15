@@ -1,5 +1,6 @@
 package trees;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
@@ -23,16 +24,16 @@ public class RightSideView {
         List<Integer> rightView = new ArrayList<>();
         if (root == null) return rightView;
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
 
         while (!queue.isEmpty()) {
             int levelSize = queue.size();
             for (int i = 0; i < levelSize; i++) {
-                TreeNode current = queue.poll();
+            	Node current = queue.poll();
                 // Add the rightmost element of the level to the result
                 if (i == levelSize - 1) {
-                    rightView.add(current.val);
+                    rightView.add(current.key);
                 }
                 // Add left and right children to the queue
                 if (current.left != null) queue.offer(current.left);
