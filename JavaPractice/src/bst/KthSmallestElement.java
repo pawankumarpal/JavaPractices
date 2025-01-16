@@ -19,7 +19,7 @@ public class KthSmallestElement {
 		root.left.right = new Node(4);
 		root .left.left.left = new Node(1);
 		
-		System.out.println(kthSmallest(root, k));
+		//System.out.println(kthSmallest(root, k));
 	}
     public static int kthSmallest(Node root, int k) {
     	Deque<Integer> q  = new ArrayDeque<Integer>();
