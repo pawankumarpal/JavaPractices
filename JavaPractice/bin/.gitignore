@@ -4,6 +4,8 @@
 /bst/
 /circularLinkedLists/
 /com/
+/graph/
+/greedy/
 /hashing/
 /heap/
 /linkedList/
@@ -14,4 +16,4 @@
 /stacks/
 /string/
 /trees/
-/graph/
+/sorting/
